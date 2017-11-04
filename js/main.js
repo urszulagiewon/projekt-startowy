@@ -1,5 +1,8 @@
 /*global
-alert, confirm, console, Debug, opera, prompt, WSH
+alert, confirm, console, Debug, opera, prompt, WSH, myHeading
 */
-alert("Alarm!");
-console.log("Hello, world");
+var myHeading = document.querySelector('h1');
+myHeading.textContent = 'Hello world!';
+
+var name = "Jan Nowak";
+console.log(name);
