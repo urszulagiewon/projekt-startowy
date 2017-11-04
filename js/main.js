@@ -6,3 +6,7 @@ myHeading.textContent = 'Hello world!';
 
 var name = "Jan Nowak";
 console.log(name);
+
+document.querySelector('a').onclick = function () {
+    alert('Czy jesteś pewien?');
+}
